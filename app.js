@@ -49,7 +49,7 @@ console.log("This is working!");
     var i = 0;
 
     $.getJSON(
-      "https://data.rivm.nl/covid-19/COVID-19_aantallen_gemeente_cumulatief.json",
+      "https://api.covid19india.org/data.json",
       function (resp) {
         // Iterate over the JSON object
         for (i = 0, len = resp.length; i < len; i++) {
